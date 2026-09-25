@@ -2,10 +2,10 @@ name: Continuous Integration
 on:
   push:
     branches:
-      - main
+      - practice-2
 jobs:
   build:
-    name: practice-2
+    name: Build
     strategy:
       fail-fast: false
       matrix:
